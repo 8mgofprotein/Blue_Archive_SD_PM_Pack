@@ -4,3 +4,5 @@ All Assets Belong to
 Nexon
 Yostar, Inc.
 Nexon Korea
+Assets Ripper 
+ZeR0-N
