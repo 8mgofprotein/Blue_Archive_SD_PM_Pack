@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\kyo\ba\pm\Hanako_Original_Hair"
+	"$bumpmap" "models\kyo\ba\pm\normal"
+                "$phongexponenttexture" "models\kyo\ba\pm\Hanako_Original_Hair_n"
+                "$lightwarptexture" "models\kyo\ba\pm\cel_lightwarp1"
+
+    "$color2" "[.75 .75 .75]"
+    "$phong" "1"
+     //"$phongboost" "0.5"
+    "$phongfresnelranges" "[.9 .6 2]"
+    "$phongalbedotint" "0"
+    "$nocull" "1"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "1"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"

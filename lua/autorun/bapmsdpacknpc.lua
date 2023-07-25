@@ -28,6 +28,8 @@ local NPC =
 
 list.Set( "NPC", "npc_neru_kyo_h", NPC )
 
+--Azusa
+
 local NPC =
 {
 	Name = "Azusa (Friendly)",
@@ -39,8 +41,6 @@ local NPC =
 	Category = "Nekyoko's Blue Archive NPC"
 	
 }
-
---Azusa
 
 list.Set( "NPC", "npc_azusa_kyo_f", NPC )
 
@@ -58,3 +58,33 @@ local NPC =
 }
 
 list.Set( "NPC", "npc_azusa_kyo_h", NPC )
+--Hanako
+
+local NPC =
+{
+	Name = "Hanako (Friendly)",
+	Class = "npc_citizen",
+	KeyValues = { citizentype = 4, spawnflags = 155908, },
+	Model = "models/kyo/hanako_npc_citizen.mdl",
+	Health = "200",
+	Weapons = { "weapon_smg" },
+	Category = "Nekyoko's Blue Archive NPC"
+	
+}
+
+list.Set( "NPC", "npc_hanako_kyo_f", NPC )
+
+local NPC =
+{
+	Name = "Hanako (Hostile)",
+	Class = "npc_combine_s",
+	Model = "models/kyo/hanako_npc_combine.mdl",
+	Health = "200",
+	Squadname = "PLAGUE",
+	Numgrenades = "15",
+	Weapons = { "weapon_smg" },
+	Category = "Nekyoko's Blue Archive NPC"
+	
+}
+
+list.Set( "NPC", "npc_hanako_kyo_h", NPC )
